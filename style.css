@@ -1,0 +1,50 @@
+/* ============= Google font link ============= */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+/*****banner and header title*******/
+.bg-color {
+    background-color: #1A1A1A;
+}
+
+h1.banner-title {
+    font-family: 'Berkshire Swash', cursive;
+    color: #FF5E19;
+}
+
+/* ------------ marker alignment control in banner header title -----------*/
+#marker {
+    width: 150%;
+    max-width: fit-content;
+    top: 110%;
+}
+
+/* --------- Baner pic -------- */
+img[alt="shakib"] {
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+}
+
+/* ------------ given shadow of icons ----------------- */
+i {
+    text-shadow: 0 0 4px white;
+}
+
+/* ----------------- player list and budget title -------------- */
+.marker-ureg {
+    width: 72%;
+    max-width: fit-content;
+    bottom: 15%;
+}
+
+form input:focus {
+    outline: 3px solid white !important;
+}
+
+/* ---------------- Disabled button in card player -----------*/
+button[disabled] {
+    background-color: lightgray !important;
+    color: black;
+    border: none;
+    color: whitesmoke;
+}

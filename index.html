@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Choose your Top-5 player </title>
+    <!-- ============= Bootstrap cdn link ============= -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- ============= font awesome CDN link ============= -->
+    <script src="https://kit.fontawesome.com/4e244cb7f8.js" crossorigin="anonymous"></script>
+    <!-- ============= Local CSS link ============= -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="bg-color">
+    <!-- ============= HEADER ============= -->
+    <header class="page-header bg-black container-fluid p-0 pt-3">
+        <div class="row m-0">
+            <!---------- BANNER SECTION --------->
+            <section
+                class="col-12 col-sm-5 col-md-3 ps-0  order-1 order-sm-0 bg-lion pt-4 pt-md-2 pt-lg-4 pe-lg-4 pe-md-0">
+                <img src="./image/baner.jpg" class="w-100 h-100" alt="mbappe">
+            </section>
+
+            <section class="col-12 col-sm-7 col-md-7 text-center px-sm-4">
+                <h1 class="banner-title pb-4 mt-5 px-sm-0 display-2">
+                    Choose Your Favurite Five
+
+                </h1>
+                <p class="text-white-50">Select your deream 5 player's and build your own team with us. Eos molestias
+                    vitae nulla, repellat, quidem molestiae accusamus suscipit consequuntur nisi illo laboriosam fugiat,
+                    ab asperiores rem incidunt facilis dolore in voluptatum.</p>
+            </section>
+
+        </div>
+    </header>
+    <!---------- Header End---------->
+
+    <!-- ============= MAIN-CONTAINER ============= -->
+    <main class="container">
+        <section class="row pt-5 gx-4">
+
+            <!-- ******** PLAYER CARD SECTION-START ********* -->
+            <section class="col-12 col-lg-9 mb-5">
+                <div class="row row-cols-1  row-cols-sm-2 row-cols-md-3 g-3">
+
+                    <!-------- Mashrafee Card ------->
+                    <div class="col">
+                        <div class="card bg-black text-white-50 border border-2 border-secondary rounded-0">
+                            <img src="./image/mashrafee.jpg" alt="mashrafee.jpg">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-white" id="mashrafee-name">Mashrafee-Mortaza</h5>
+                                <p class="card-text d-flex justify-content-center align-items-center">216 Match<i
+                                        class="fa-solid  mx-2 text-black"></i> 600 Wickets</p>
+                                <button type="button" class="btn btn-primary d-block rounded-0 w-100"
+                                    id="mashrafee">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-------- Mushfiq-card ------->
+
+                    <div class="col">
+                        <div class="card bg-black text-white-50 border border-2 border-secondary rounded-0">
+                            <img src="./image/mushi.jpg" alt="mushi.jpg">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-white" id="mushfiq-name">Mushfiqur-Rahim</h5>
+                                <p class="card-text d-flex justify-content-center align-items-center">222 Match <i
+                                        class="fa-solid  mx-2 text-black"></i> 1300 Runs</p>
+                                <button type="button" class="btn btn-primary d-block rounded-0 w-100"
+                                    id="mushfiq">Select</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-------- Shakib-card ------>
+
+                    <div class="col">
+                        <div class="card bg-black text-white-50 border border-2 border-secondary rounded-0">
+                            <img src="./image/shak.png" alt="shak.png">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-white" id="shakib-name">Shakib-Al-Hasan</h5>
+                                <p class="card-text d-flex justify-content-center align-items-center">206 Match <i
+                                        class="fa-solid mx-2 text-black"></i> 12000 Runs</p>
+                                <button type="button" class="btn btn-primary d-block rounded-0 w-100"
+                                    id="shakib">Select</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tamim-card -->
+
+                    <div class="col">
+                        <div class="card bg-black text-white-50 border border-2 border-secondary rounded-0">
+                            <img src="./image/tamim.png" alt="tamim.png">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-white" id="tamim-name">Tamim-Iqbal</h5>
+                                <p class="card-text d-flex justify-content-center align-items-center">204 Match<i
+                                        class="fa-solid  mx-2 text-black"></i> 11800 Runs</p>
+                                <button type="button" class="btn btn-primary d-block rounded-0 w-100"
+                                    id="tamim">Select</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!----Mahmudullah-card---->
+
+                    <div class="col">
+                        <div class="card bg-black text-white-50 border border-2 border-secondary rounded-0">
+                            <img src="./image/mh.jpg" alt="mh.jpg">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-white" id="mahmudullah-name">Mahmudullah-Riyad</h5>
+                                <p class="card-text d-flex justify-content-center align-items-center">201 Match <i
+                                        class="fa-solid mx-2 text-black"></i>
+                                    10800 Runs</p>
+                                <button type="button" class="btn btn-primary d-block rounded-0 w-100"
+                                    id="mahmudullah">Select</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sabbir-cadrd -->
+
+                    <div class="col">
+                        <div class="card bg-black text-white-50 border border-2 border-secondary rounded-0">
+                            <img src="./image/sabbir1.jpg" alt="sabbir1.jpg">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-white" id="sabbir-name">Sabbir-Rahman</h5>
+                                <p class="card-text d-flex justify-content-center align-items-center">50 Match
+                                    <i class="fa-solid mx-2 text-black"></i>
+                                    1200 Runs
+                                </p>
+                                <button type="button" class="btn btn-primary d-block rounded-0 w-100"
+                                    id="sabbir">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--************** PLAYER-CARD-END ****************-->
+
+            <!-- ****Sidebar-Start***** -->
+            <aside class="col-12 col-lg-3 mt-0 px-1">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-1 gx-3 gx-lg-0 m-0">
+
+                    <!-- list-item section -->
+
+                    <section class="mb-3 mb-md-0 mb-lg-3 mt-0 d-flex">
+
+                        <div class="content-container bg-black w-100 py-3">
+
+
+
+                            <h4 class="pb-4 px-sm-0 text-capitalize text-center text-white position-relative">
+                                Select-5</h4>
+                            <ol class="list-group list-group-numbered" id="player-list">
+
+                            </ol>
+                        </div>
+                    </section>
+
+                    <!-- budget section -->
+
+                    <section class="my-0">
+                        <div class="content-container bg-black py-3">
+                            <h4>Budget</h4>
+                            <form class="text-white-50 px-2" action="">
+                                <div class="row mb-3">
+                                    <label for="input-player-amount" class="col-sm-5 col-form-label"> Per Player</label>
+
+                                    <div class="col-sm-7">
+                                        <input type="number"
+                                            class="form-control bg-black border-2 border-secondary rounded-0 text-light"
+                                            id="input-player-amount" min="0">
+                                    </div>
+
+                                </div>
+
+                                <button type="button" class="btn btn-primary w-100 mb-3 rounded-0"
+                                    id="calculate-btn">Calculate</button>
+                                <p class="d-flex justify-content-between">Player Expensess <span class="text-danger">$
+                                        <span id="player-expenses">0</span></span></p>
+                                <div class="row mb-3">
+                                    <label for="input-manager-expense" class="col-sm-5 col-form-label">Manager</label>
+                                    <div class="col-sm-7">
+
+                                        <input type="number"
+                                            class="form-control bg-black border-2 border-secondary rounded-0 text-light"
+                                            id="input-manager-expense" placeholder="Enter Amount" min="0">
+                                    </div>
+
+                                    <label for="input-coach-expense" class="col-sm-5 col-form-label">Coach</label>
+                                    <div class="col-sm-7">
+
+                                        <input type="number"
+                                            class="form-control bg-black border-2 border-secondary rounded-0 text-light"
+                                            id="input-coach-expense" placeholder="Enter Amount" min="0">
+                                    </div>
+
+
+                                </div>
+                                <button type="button" class="btn btn-primary w-100 mb-3 rounded-0 text-capitalize"
+                                    id="calculate-total-btn">Calculate Total</button>
+                                <p class="d-flex justify-content-between">Total <span class="text-danger">$ <span
+                                            id="total-expense">0</span></span></p>
+
+                            </form>
+                        </div>
+
+                    </section>
+                </div>
+            </aside>
+
+
+
+
+            </div>
+            </aside>
+
+            <!-- *******sideBar-End******** -->
+
+
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vlsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="./player.js"> </script>
+</body>
